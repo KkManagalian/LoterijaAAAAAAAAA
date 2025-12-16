@@ -33,12 +33,11 @@ public class PatstavigaisDarbs {
 						int Skaitlis = rand.nextInt(10);
 						Izlozetie.push(Skaitlis);
 						}
-						
 						System.out.println(Izlozetie);
 						for(int i=0;i<rand.nextInt(8)+1;i++) {
 							Izlozetie.pop();
 							}
-						System.out.println(Izlozetie);
+						
 					Laimejosie.push(Izlozetie.pop());
 						}
 						
